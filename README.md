@@ -1,4 +1,4 @@
-<img width="434" height="735" alt="image" src="https://github.com/user-attachments/assets/6c962b28-5af8-45d6-b484-baa5aa053133" /># FinFlow Control de Finanzas Personales
+# FinFlow -> Control de Finanzas Personales
 
 FinFlow es una aplicación móvil para Android diseñada para ofrecer una solución práctica, intuitiva y completa para la gestión de finanzas personales, del hogar o de pequeñas empresas. Su principal objetivo es facilitar el registro y seguimiento de ingresos y gastos, permitiendo al usuario tener un panorama claro y detallado de su situación financiera en todo momento.
 
