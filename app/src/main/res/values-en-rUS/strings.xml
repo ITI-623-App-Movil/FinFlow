@@ -6,4 +6,15 @@
     <string name="ErrorMsgRemove">Error for remove the data</string>
     <string name="ErrorMsgGetAll">Error for get all data</string>
     <string name="ErrorMsgGetById">Error for get especific data</string>
+    <string name="btnAccountText_main">Accounts</string>
+    <string name="btnBankText_main">Banks</string>
+    <string name="bntCategoryText_main">Categories</string>
+    <string name="btnCurrencyText_main">Currency</string>
+    <string name="TextID">ID *</string>
+    <string name="TextName">Name *</string>
+    <string name="TextType">Type *</string>
+    <string name="TextCode">Code *</string>
+    <string name="TextBank">Bank *</string>
+    <string name="TextCurrency">Currency *</string>
+    <string name="TextBalance">"Balance * "</string>
 </resources>
