@@ -30,6 +30,22 @@ class CategoryController {
         }
     }
 
+    fun removeCategory(id: Int){
+        try{
+            val result = getById(id)
+            if (result == null){
+                //throw Exception(context
+                //   .getString(R.string.MsgDataNoFound))
+                throw Exception("Category no found")
+            }
+            dataManager.removeCurrency(id)
+        }catch (e: Exception){
+            //throw Exception(context
+            //  .getString(R.string.ErrorMsgRemove))
+            throw Exception(e.message)
+        }
+    }
+
     fun getCategory(): List<Category> {
         try {
             return dataManager.getAllCategory()
@@ -38,14 +54,9 @@ class CategoryController {
         }
     }
 
-    fun getById(id: Int) : Category {
+    fun getById(id: Int) : Category? {
         try {
-            val result = dataManager.getByIdCategory(id)
-            if (result == null) {
-                throw Exception(context.getString(R.string.ErrorMsgGetById))
-            }
-
-            return result
+            return dataManager.getByIdCategory(id)
         } catch (e: Exception) {
             throw Exception(context.getString(R.string.ErrorMsgGetById))
         }

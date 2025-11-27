@@ -5,6 +5,8 @@ class Currency {
     private var code: String = ""
     private var name: String = ""
 
+    constructor()
+
     constructor(id: Int, code: String, name: String) {
         this.id = id;
         this.code = code;

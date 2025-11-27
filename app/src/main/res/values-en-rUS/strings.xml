@@ -17,4 +17,15 @@
     <string name="TextBank">Bank *</string>
     <string name="TextCurrency">Currency *</string>
     <string name="TextBalance">"Balance * "</string>
+    <string name="TextSave_menu">Save</string>
+    <string name="TextDelete_menu">Delete</string>
+    <string name="TextCancel_menu">Cancelar</string>
+    <string name="MsgDataNoFound">The data was not found</string>
+    <string name="MsgDuplicateDate">The information is duplicated</string>
+    <string name="MsgSaveSuccess">The information was deleted successfully</string>
+    <string name="MsgDeleteSuccess">The information was deleted successfully</string>
+    <string name="TextTitleDialogQuestion">Question...</string>
+    <string name="TextSaveActionQuestion">Are you sure to save the information?</string>
+    <string name="TextDeleteActionQuestion">Are you sure to delete the information?</string>
+    <string name="TextYes">Yes</string>
 </resources>

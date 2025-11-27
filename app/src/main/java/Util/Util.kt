@@ -1,7 +1,10 @@
 package Util
 
+import android.app.AlertDialog
 import android.content.Context
+import android.content.DialogInterface
 import android.content.Intent
+import kgpa.finflow.R
 import java.util.Objects
 
 class Util {
@@ -9,6 +12,22 @@ class Util {
         fun openActivity(context: Context, objClass: Class<*>){
             val intent = Intent(context, objClass)
             context.startActivity(intent)
+        }
+
+        fun showDialogCondition(context: Context, questionText: String, callback: () ->  Unit){
+            val dialogBuilder = AlertDialog.Builder(context)
+            dialogBuilder.setMessage(questionText)
+                .setCancelable(false)
+                .setPositiveButton(context.getString(R.string.TextYes), DialogInterface.OnClickListener{
+                        dialog, id -> callback()
+                })
+                .setNegativeButton(context.getString(R.string.TextNo), DialogInterface.OnClickListener {
+                        dialog, id -> dialog.cancel()
+                })
+
+            val alert = dialogBuilder.create()
+            alert.setTitle(context.getString(R.string.TextTitleDialogQuestion))
+            alert.show()
         }
     }
 }
