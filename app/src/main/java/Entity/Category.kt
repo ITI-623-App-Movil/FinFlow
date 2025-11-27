@@ -5,6 +5,8 @@ class Category {
     private var type: String = "" // Income or Expense
     private var name: String = ""
 
+    constructor()
+
     constructor(id: Int, type: String, name: String) {
         this.id = id;
         this.type = type;

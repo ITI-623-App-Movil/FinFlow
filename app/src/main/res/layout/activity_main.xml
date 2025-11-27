@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnBank_main"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnBankText_main" />
+
+        <Button
+            android:id="@+id/btnAccount_main"
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:text="@string/btnAccountText_main" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnCategory_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bntCategoryText_main" />
+
+        <Button
+            android:id="@+id/btnCurrency_main"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCurrencyText_main" />
+    </TableRow>
+</TableLayout>

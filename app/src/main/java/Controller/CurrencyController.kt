@@ -30,6 +30,22 @@ class CurrencyController {
         }
     }
 
+    fun removeCurrency(id: Int){
+        try{
+            val result = getById(id)
+            if (result == null){
+                //throw Exception(context
+                //   .getString(R.string.MsgDataNoFound))
+                throw Exception("Currency no found")
+            }
+            dataManager.removeCurrency(id)
+        }catch (e: Exception){
+            //throw Exception(context
+            //  .getString(R.string.ErrorMsgRemove))
+            throw Exception(e.message)
+        }
+    }
+
     fun getCurrency(): List<Currency> {
         try {
             return dataManager.getAllCurrency()
@@ -38,14 +54,9 @@ class CurrencyController {
         }
     }
 
-    fun getById(id: Int) : Currency {
+    fun getById(id: Int) : Currency? {
         try {
-            val result = dataManager.getByIdCurrency(id)
-            if (result == null) {
-                throw Exception(context.getString(R.string.ErrorMsgGetById))
-            }
-
-            return result
+            return dataManager.getByIdCurrency(id)
         } catch (e: Exception) {
             throw Exception(context.getString(R.string.ErrorMsgGetById))
         }
