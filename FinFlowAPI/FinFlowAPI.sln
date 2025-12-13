@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinFlowAPI", "FinFlowAPI.csproj", "{806EFE06-A2F0-444F-B756-C11F60F8CD17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{806EFE06-A2F0-444F-B756-C11F60F8CD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806EFE06-A2F0-444F-B756-C11F60F8CD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806EFE06-A2F0-444F-B756-C11F60F8CD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806EFE06-A2F0-444F-B756-C11F60F8CD17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA117F9-510C-477E-AFF7-3476B025006C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\FinFlowAPI.exe
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Data\accounts.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Data\categories.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Data\currencies.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Data\currency.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Data\transactions.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\FinFlowAPI.dll
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\FinFlowAPI.deps.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\FinFlowAPI.runtimeconfig.json
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\FinFlowAPI.pdb
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
