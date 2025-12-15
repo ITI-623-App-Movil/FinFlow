@@ -10,6 +10,7 @@
     <string name="btnBankText_main">Banks</string>
     <string name="bntCategoryText_main">Categories</string>
     <string name="btnCurrencyText_main">Currency</string>
+    <string name="btnTransactionText_main">Transaction</string>
     <string name="TextID">ID *</string>
     <string name="TextName">Name *</string>
     <string name="TextType">Type *</string>
@@ -22,10 +23,17 @@
     <string name="TextCancel_menu">Cancelar</string>
     <string name="MsgDataNoFound">The data was not found</string>
     <string name="MsgDuplicateDate">The information is duplicated</string>
-    <string name="MsgSaveSuccess">The information was deleted successfully</string>
+    <string name="MsgSaveSuccess">The information was saved successfully</string>
     <string name="MsgDeleteSuccess">The information was deleted successfully</string>
     <string name="TextTitleDialogQuestion">Question...</string>
     <string name="TextSaveActionQuestion">Are you sure to save the information?</string>
     <string name="TextDeleteActionQuestion">Are you sure to delete the information?</string>
     <string name="TextYes">Yes</string>
+    <string name="TextTransactionList">Transaction list</string>
+    <string name="TextEditTransaction">Edit transaction</string>
+    <string name="TextDescription">Description *</string>
+    <string name="TextDate">Date</string>
+    <string name="TextCategory">Category *</string>
+    <string name="TextAccount">Account *</string>
+    <string name="TextAmount">Amount *</string>
 </resources>

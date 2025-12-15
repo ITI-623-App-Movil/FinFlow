@@ -16,6 +16,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 
 class CategoryActivity : AppCompatActivity() {
     lateinit var txtID: EditText
@@ -98,16 +100,18 @@ class CategoryActivity : AppCompatActivity() {
     // #region CRUD
     private fun searchCategory(id: Int){
         try {
-            val category = categoryController.getById(id)
-            isEditMode = true
-            txtID.setText(category?.ID.toString())
-            txtID.isEnabled = false
-            txtName.setText(category?.Name)
-            val position = (spType.adapter as ArrayAdapter<String>)
-                .getPosition(category?.Type)
-            spType.setSelection(position)
+            lifecycleScope.launch {
+                val category = categoryController.getById(id)
+                isEditMode = true
+                txtID.setText(category?.ID.toString())
+                txtID.isEnabled = false
+                txtName.setText(category?.Name)
+                val position = (spType.adapter as ArrayAdapter<String>)
+                    .getPosition(category?.Type)
+                spType.setSelection(position)
 
-            invalidateOptionsMenu()
+                invalidateOptionsMenu()
+            }
         } catch (e: Exception){
             cleanScreen()
             Toast.makeText(this, e.message.toString(),
@@ -118,26 +122,32 @@ class CategoryActivity : AppCompatActivity() {
     fun saveCategory() {
         try {
             if (isValidationData()){
-                if (categoryController.getById(txtID.text.toString().trim().toInt()) != null
-                    && !isEditMode){
-                    Toast.makeText(this, getString(R.string.MsgDuplicateDate)
-                        , Toast.LENGTH_LONG).show()
-                } else {
-                    val category = Category()
-                    category.ID = txtID.text.toString().trim().toInt()
-                    category.Name = txtName.text.toString()
-                    category.Type = spType.selectedItem.toString()
 
-                    if (!isEditMode)
-                        categoryController.addCategory(category)
-                    else
-                        categoryController.updateCategory(category)
+                    if (
+                        lifecycleScope.launch {categoryController.getById(txtID.text.toString().trim().toInt())} != null
+                        && !isEditMode
+                    ) {
+                        Toast.makeText(
+                            this, getString(R.string.MsgDuplicateDate), Toast.LENGTH_LONG
+                        ).show()
+                    } else {
+                        lifecycleScope.launch {
+                            val category = Category()
+                            category.ID = txtID.text.toString().trim().toInt()
+                            category.Name = txtName.text.toString()
+                            category.Type = spType.selectedItem.toString()
 
-                    cleanScreen()
+                            if (!isEditMode)
+                                categoryController.addCategory(category)
+                            else
+                                categoryController.updateCategory(category)
+                        }
+                        cleanScreen()
 
-                    Toast.makeText(this, getString(R.string.MsgSaveSuccess)
-                        , Toast.LENGTH_LONG).show()
-                }
+                        Toast.makeText(
+                            this, getString(R.string.MsgSaveSuccess), Toast.LENGTH_LONG
+                        ).show()
+                    }
             }else{
                 Toast.makeText(this, "Datos incompletos"
                     , Toast.LENGTH_LONG).show()
@@ -150,10 +160,15 @@ class CategoryActivity : AppCompatActivity() {
 
     fun deleteCategory(): Unit{
         try {
-            categoryController.removeCategory(txtID.text.toString().trim().toInt())
+            lifecycleScope.launch {
+                categoryController.removeCategory(txtID.text.toString().trim().toInt())
+            }
+
             cleanScreen()
-            Toast.makeText(this, getString(R.string.MsgDeleteSuccess)
-                , Toast.LENGTH_LONG).show()
+
+            Toast.makeText(
+                this, getString(R.string.MsgDeleteSuccess), Toast.LENGTH_LONG
+            ).show()
         }catch (e: Exception){
             Toast.makeText(this, e.message.toString()
                 , Toast.LENGTH_LONG).show()

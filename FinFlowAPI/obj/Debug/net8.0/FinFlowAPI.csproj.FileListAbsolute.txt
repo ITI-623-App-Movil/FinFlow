@@ -38,3 +38,4 @@ C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Debug\n
 C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Debug\net8.0\FinFlowAPI.pdb
 C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Debug\net8.0\FinFlowAPI.genruntimeconfig.cache
 C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\obj\Debug\net8.0\ref\FinFlowAPI.dll
+C:\Users\kpica\Documents\UTN\VI Cuatri 2025\Movil\FinFlow\FinFlowAPI\bin\Debug\net8.0\Data\currency.json

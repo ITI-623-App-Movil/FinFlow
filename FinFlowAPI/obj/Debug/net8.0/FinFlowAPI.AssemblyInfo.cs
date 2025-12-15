@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinFlowAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3b3ac1f2bc0b0b70103aff1cb35d29e5f31c165")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7351a171e52553e990683677e585790ebeff41fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinFlowAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinFlowAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

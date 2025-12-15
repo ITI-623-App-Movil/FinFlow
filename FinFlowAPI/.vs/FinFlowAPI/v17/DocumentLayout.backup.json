@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|c:\\users\\kpica\\documents\\utn\\vi cuatri 2025\\movil\\finflow\\finflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|c:\\users\\kpica\\documents\\utn\\vi cuatri 2025\\movil\\finflow\\finflowapi\\data\\accounts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|solutionrelative:data\\accounts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|c:\\users\\kpica\\documents\\utn\\vi cuatri 2025\\movil\\finflow\\finflowapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|c:\\users\\kpica\\documents\\utn\\vi cuatri 2025\\movil\\finflow\\finflowapi\\data\\transactions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|solutionrelative:data\\transactions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|c:\\users\\kpica\\documents\\utn\\vi cuatri 2025\\movil\\finflow\\finflowapi\\data\\currency.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|solutionrelative:data\\currency.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|c:\\users\\kpica\\documents\\utn\\vi cuatri 2025\\movil\\finflow\\finflowapi\\data\\categories.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|solutionrelative:data\\categories.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|c:\\users\\kpica\\documents\\utn\\vi cuatri 2025\\movil\\finflow\\finflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806EFE06-A2F0-444F-B756-C11F60F8CD17}|FinFlowAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +42,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "categories.json",
+              "DocumentMoniker": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\categories.json",
+              "RelativeDocumentMoniker": "Data\\categories.json",
+              "ToolTip": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\categories.json",
+              "RelativeToolTip": "Data\\categories.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T22:24:18.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "currency.json",
+              "DocumentMoniker": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\currency.json",
+              "RelativeDocumentMoniker": "Data\\currency.json",
+              "ToolTip": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\currency.json",
+              "RelativeToolTip": "Data\\currency.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T22:24:08.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "transactions.json",
+              "DocumentMoniker": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\transactions.json",
+              "RelativeDocumentMoniker": "Data\\transactions.json",
+              "ToolTip": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\transactions.json",
+              "RelativeToolTip": "Data\\transactions.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T22:24:07.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "accounts.json",
+              "DocumentMoniker": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\accounts.json",
+              "RelativeDocumentMoniker": "Data\\accounts.json",
+              "ToolTip": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Data\\accounts.json",
+              "RelativeToolTip": "Data\\accounts.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T22:24:05.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -39,19 +103,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T20:45:07.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\kpica\\Documents\\UTN\\VI Cuatri 2025\\Movil\\FinFlow\\FinFlowAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T20:43:29.766Z",
               "EditorCaption": ""
             }
           ]

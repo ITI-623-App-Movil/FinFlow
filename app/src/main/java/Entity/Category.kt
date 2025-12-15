@@ -24,4 +24,8 @@ class Category {
     var Name: String
         get() = this.name
         set(value) { this.name = value }
+
+    override fun toString(): String {
+        return this.name
+    }
 }
