@@ -39,4 +39,21 @@
             android:layout_height="wrap_content"
             android:text="@string/btnCurrencyText_main" />
     </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnListTransaction_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextTransactionList" />
+
+        <Button
+            android:id="@+id/btnTransaction_main"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTransactionText_main" />
+    </TableRow>
 </TableLayout>

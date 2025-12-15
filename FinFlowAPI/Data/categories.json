@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Type": "Ingreso",
+    "Name": "Salario"
+  },
+  {
+    "Id": 2,
+    "Type": "Gasto",
+    "Name": "Comida"
+  }
+]

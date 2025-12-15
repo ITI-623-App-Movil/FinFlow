@@ -1,0 +1,6 @@
+@FinFlowAPI_HostAddress = http://localhost:5134
+
+GET {{FinFlowAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

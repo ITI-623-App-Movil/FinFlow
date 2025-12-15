@@ -38,5 +38,15 @@ class MainActivity : AppCompatActivity() {
         btnCurrency.setOnClickListener(View.OnClickListener { view ->
             Util.Util.openActivity(this, CurrencyActivity::class.java)
         })
+
+        val btnTransaction = findViewById<Button>(R.id.btnTransaction_main)
+        btnTransaction.setOnClickListener(View.OnClickListener { view ->
+            Util.Util.openActivity(this, TransactionActivity::class.java)
+        })
+
+        val btnListTransaction = findViewById<Button>(R.id.btnListTransaction_main)
+        btnListTransaction.setOnClickListener(View.OnClickListener { view ->
+            Util.Util.openActivity(this, TransactionListActivity::class.java)
+        })
     }
 }
